@@ -2,18 +2,6 @@ import openai
 from archive.save import save_to_json
 openai.api_key = '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'
 
-## get user input
-def get_user_input():
-    print("Copy & paste your email below. When done, enter \"111\":")
-    user_email = ''
-    while True:
-        user_input = input()
-        if user_input == "111":
-            break
-        else:
-            user_email += user_input + "\n"
-    return user_email
-
 def model(task:str, body:str, save=True):
     '''
     Inputs:
