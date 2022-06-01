@@ -2,6 +2,12 @@
 
 Python tkinter UI that allows layman to leverage on GPT-3 to enhance their emails with proper grammar as well as more creative adjectives and better structure.
 
+## how to convert .py to .exe file?
+
+``pip install pyinstaller``
+
+``pyinstaller --onefile <file>.py``
+  
 ## how to convert a `.py` file to `.app` file (for macOS)
 
 ``pip3 install py2app``
