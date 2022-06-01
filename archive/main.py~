@@ -1,0 +1,15 @@
+import tkinter as tk
+from gpt3 import model
+from email_api import Window
+
+if __name__ == "__main__":
+    # root window created
+    root = tk.Tk()
+    root.geometry('800x400')
+    # instance created
+    app = Window(root)
+    root.title("Email Enhancer using GPT-3")
+    app.pack(fill=tk.BOTH, expand=True)
+    # show it and begin mainloop
+    root.mainloop()
+    
