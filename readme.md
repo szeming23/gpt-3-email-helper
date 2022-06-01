@@ -1,6 +1,6 @@
-# GPT-3 UI project
+# GPT-3 email enhancer UI project
 
-## how to convert to `.exe` (for Windows) or `.app` file (for macOS)
+## how to convert a `.py` file to `.app` file (for macOS)
 
 ``pip3 install py2app``
 
@@ -8,7 +8,7 @@
 
 ``rm -rf build dist``
 
-alias mode: 
+alias mode:  
 ``python3 setup.py py2app -A``
 
 if working properly,  
