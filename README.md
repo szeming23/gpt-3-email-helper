@@ -1,5 +1,7 @@
 # GPT-3 email enhancer UI project
 
+Python tkinter UI that allows layman to leverage on GPT-3 to enhance their emails with proper grammar as well as more creative adjectives and better structure.
+
 ## how to convert a `.py` file to `.app` file (for macOS)
 
 ``pip3 install py2app``
