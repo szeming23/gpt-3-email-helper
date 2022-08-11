@@ -1,6 +1,6 @@
 import openai
 from archive.save import save_to_json
-openai.api_key = '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'
+openai.api_key = '' ## input key here
 
 def model(task:str, body:str, save=True):
     '''
